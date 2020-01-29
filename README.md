@@ -67,3 +67,4 @@ Then to sync up:
 Then to build:
 
      cd <source-dir>; . build/envsetup.sh; brunch <device_name>
+     cd <source-dir>; export ALLOW_MISSING_DEPENDENCIES=true; export LC_ALL=C; . build/envsetup.sh; brunch <device_name>; mka recoveryimage
